@@ -15,11 +15,12 @@ body {
   color: #001f9a;
   opacity: 60%;
   transform: translateZ(0);
-  border-bottom: 4px dotted #001f9a;
+  border-bottom: 4px dotted white;
 }
 
 
 .header a {
+  position: relative;
   float: left;
   text-align: center;
   padding: 12px;
@@ -284,7 +285,7 @@ img {
 }
 
 
-/*Moving Circle*/
+/*Moving Circle
 i{
   position: absolute;
   top: 50%;
@@ -316,6 +317,72 @@ i:nth-child(2) {
   50% {
     transform: translate(-50%, -50%) rotate(180deg) translateY(-30%);
   }
+}
+*/
+
+/*static circle*/
+.circle1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  opacity: 0.5;
+  left:5%;
+}
+.circle2 {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  top:30%;
+  left:50%;
+  margin-top:-60px;
+  margin-left:-50px;
+  opacity: 0.5;
+}
+.circle3 {
+  height: 1000px;
+  width: 1000px;
+  border-radius: 50%;
+  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top:-60px;
+  margin-left:-50px;
+  opacity: 0.3;
+}
+.circle4 {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  top:50%;
+  left:10%;
+  margin-top:-60px;
+  margin-left:-10px;
+  opacity: 0.3;
+}
+.circle5 {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  position: absolute;
+  right:10%;
+  opacity: 0.3;
+}
+
+/* ARTSY PROJECT CONTAINER */
+project-container{
+  width: 200px;
+  height: 500px;
+  border-bottom: 4px dotted #095484; 
+  border-top: 4px dotted #095484; 
+ /* background: pink; */
 }
 
 /* ARTSY PROJECT CONTAINER */
@@ -491,7 +558,6 @@ li:hover{
   opacity: 100%;
   transform: translateZ(0);
   border-top: 4px dotted #001f9a;
-  
 }
 
 .active, .accordion:hover {
@@ -568,11 +634,13 @@ li:hover{
 }
 
 a.two{
-  color: orange;
+  color: #001f9a;
+  text-decoration-line: none;
   
 }
 
 a.two:hover{
+  color: orange;
   text-decoration-line: underline;
 }
 
