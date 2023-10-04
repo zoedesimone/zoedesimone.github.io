@@ -326,7 +326,7 @@ i:nth-child(2) {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(to right, #001f9a, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
   position: absolute;
   opacity: 0.5;
   left:5%;
@@ -335,7 +335,7 @@ i:nth-child(2) {
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(to right, #001f9a, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
   position: absolute;
   top:30%;
   left:50%;
@@ -347,7 +347,7 @@ i:nth-child(2) {
   height: 1000px;
   width: 1000px;
   border-radius: 50%;
-  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(to right, #001f9a, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
   position: absolute;
   top:50%;
   left:50%;
@@ -359,7 +359,7 @@ i:nth-child(2) {
   height: 800px;
   width: 800px;
   border-radius: 50%;
-  background: linear-gradient(to right, blue, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(to right, #001f9a, rgba(0, 0, 0, 0)), url(https://grainy-gradients.vercel.app/noise.svg);
   position: absolute;
   top:50%;
   left:10%;
@@ -371,7 +371,7 @@ i:nth-child(2) {
   height: 500px;
   width: 500px;
   border-radius: 50%;
-  background: linear-gradient(to right,  rgba(0, 0, 0, 0),blue), url(https://grainy-gradients.vercel.app/noise.svg);
+  background: linear-gradient(to right,  rgba(0, 0, 0, 0),#001f9a), url(https://grainy-gradients.vercel.app/noise.svg);
   position: absolute;
   right:10%;
   opacity: 0.3;
