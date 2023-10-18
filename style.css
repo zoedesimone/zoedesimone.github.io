@@ -743,3 +743,18 @@ p{
   left: 0;
   top: 0;
 }
+
+/*Video*/
+video {
+  border: 3px solid white;
+  border-radius: 8px;
+  display: block;
+  max-width: 100%;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 720;           /* Take full viewport height */
+}
