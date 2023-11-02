@@ -784,3 +784,18 @@ a:hover {
 a:visited {
   color: purple;        /* Change color of visited links */
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Set the width and height of the container as needed */
+  height: 200px;
+}
+
+.img[src*="Zoe.jpg"] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale down and fit the image inside the circular container */
+  border-radius: 50%;
+}
